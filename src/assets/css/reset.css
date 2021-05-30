@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    border: none;
+    vertical-align: middle;
+}
+
+strong,b{
+    font-weight: normal;
+}
+
+
+em,i{
+    font-style: normal;
+}
+
+ul,li,ol{
+    list-style: none;
+}
+input,textarea{
+    /*聚焦出现的边框*/
+    outline: none;
+}
+
+textarea{
+    /*禁止用户改变尺寸*/
+    resize: none;
+}
+
+del {
+    text-decoration: none;
+}
